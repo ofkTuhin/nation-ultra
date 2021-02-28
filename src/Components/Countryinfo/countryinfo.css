@@ -1,0 +1,15 @@
+img{
+    width: 100px;
+}
+.country{
+    width: 200px;
+    border: 1px solid rgb(236, 172, 193);
+    margin-top:20px;
+    margin-left:20px;
+    text-align: center;
+   
+}
+.info{
+    display:flex;
+    flex-wrap: wrap;
+}
