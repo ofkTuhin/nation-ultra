@@ -25,6 +25,7 @@ const Countryinfo = (props) => {
             <p>area: {area}</p>
             <p>currencies: {currency}</p>
             <p>languages: {language}</p>
+            <button onClick={()=>props.handleAddcountry(props.country)}>Add Country</button>
           </div>
         </div>
     );
